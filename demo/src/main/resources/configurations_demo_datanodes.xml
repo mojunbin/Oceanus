@@ -11,11 +11,11 @@
 	<datanode id="user_db1" alarm="com.bj58.oceanus.demo.alarms.DefaultAlarm">
 		<url>
 		<![CDATA[
-		jdbc:mysql://192.168.123.148:58885/test_oceanus?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+		jdbc:mysql://192.168.1.120:3306/test_oceanus?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
 		]]>
 		</url>
-		<username>oceanus_tester</username>
-		<password>123456</password>
+		<username>root</username>
+		<password>root</password>
 		<driverClassName>com.mysql.jdbc.Driver</driverClassName>
 		<initialSize>10</initialSize>
 		<maxActive>50</maxActive>
@@ -26,11 +26,13 @@
 	<datanode id="user_db2" parent="user_db1">
 		<url>
 		<![CDATA[
-		jdbc:mysql://192.168.123.153:58885/test_oceanus?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+		jdbc:mysql://192.168.1.120:3306/test_oceanus2?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
 		]]>
 		</url> 
 	</datanode>
-	
+
+<!--
+
 	<datanode id="product_by_schema_db1">
 		<url>
 		<![CDATA[
@@ -53,5 +55,6 @@
 		]]>
 		</url>
 	</datanode>
+-->
 
 </configurations>

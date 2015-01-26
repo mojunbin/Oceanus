@@ -1134,6 +1134,17 @@ public class RowSetsResultSet implements ResultSet,LifeCycle{
 		throw new UnsupportedOperationException();
 	}
 
+	//TODO jdk1.7
+	@Override
+	public <T> T getObject(int columnIndex, Class<T> type) throws SQLException {
+		return null;
+	}
+
+	@Override
+	public <T> T getObject(String columnLabel, Class<T> type) throws SQLException {
+		return null;
+	}
+
 	@Override
 	public void start() throws SQLException {
 		// TODO Auto-generated method stub

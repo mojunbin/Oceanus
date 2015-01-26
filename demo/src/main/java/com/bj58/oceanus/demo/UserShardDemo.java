@@ -62,7 +62,7 @@ public class UserShardDemo {
 		
 	}
 	
-	@Test
+	//@Test
 	public void deleteTest() throws SQLException{
 		Connection connection = null;
 		PreparedStatement statement = null;

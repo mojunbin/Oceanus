@@ -34,7 +34,7 @@
 		
 		<function ref="userShardFunc" />
 	</table>
-	
+<!--
 	<table name="t_product" differ-name="true" shard-type="BY_TABLE" threadpool="default">
 		<columns>
 			<column name="id"/>
@@ -48,6 +48,6 @@
 		
 		<function ref="userShardFunc" />
 	</table>
- 
+ -->
  
 </configurations>

@@ -4,3 +4,16 @@
 *.svn
 
 oceanus-all/oceanus-plugins/oceanus-plugins-alarm/*
+
+bin
+target
+.settings
+.project
+.classpath
+.svn
+**/target
+*.iml
+.idea
+/out
+
+/*.iws
